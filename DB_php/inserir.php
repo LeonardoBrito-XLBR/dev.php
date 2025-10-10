@@ -7,8 +7,13 @@
     $funcao = $_POST['funcao'];
     $salario = $_POST['salario'];
     
-    $sql = "INSERT INTO funcionario (nome, funcao, salario) VALUES ('$nome, $funcao, $salario')";
+    $sql = "INSERT INTO funcionario (nome, funcao, salario) VALUES ('$nome', '$funcao', '$salario')";
 
-    $conexao ->query($sql);
+    if ($conexao->query($sql)){
+        header('Location:obrigado.php');
+
+    } else {
+        header ('Location:index.php');
+    }
 
 ?>

@@ -11,9 +11,9 @@
           theme: {
             extend: {
               colors: {
-                'gold': '#ffd500ff', // Dourado puro
-                'dark-bg': '#121212', // Fundo preto
-                'dark-card': '#132551ff', // Card do formulário (slate-800)
+                'gold': '#fdab13ff', // Dourado puro
+                'dark-bg': '#0e0e0eff', // Fundo preto
+                'dark-card': '#141414ff', // Card do formulário (slate-800)
               }
             }
           }
@@ -22,9 +22,12 @@
     <style>
         /* Estilos adicionais para o foco do input, garantindo o brilho dourado */
         .input-gold-focus:focus {
-            border-color: #FFD700 !important;
-            box-shadow: 0 0 0 1px #FFD700 !important;
-        }
+           'gold': '#fdab13ff', // Dourado puro
+                'dark-bg': '#0e0e0eff', // Fundo preto
+                'dark-card': '#141414ff', // Card do formulário (slate-800)
+              }
+        
+              
     </style>
 </head>
 
