@@ -1,0 +1,1 @@
+const wallpaper = document.getElementById("")
